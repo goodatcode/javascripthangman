@@ -1,6 +1,3 @@
-# JavaScript Hangman
-Hangman game co created by Alex Mannix, Darius Minus, Brittany Miltenberger &amp; Bonnie Wolfe
-
 # Contents
 * [Team Goal: Create Hangman Game](#team-goal-create-hangman-game)
 * [Use Cases](#use-cases)
