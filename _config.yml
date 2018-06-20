@@ -1,1 +1,6 @@
+title: Hangman
+description: A Vanilla JavaScript Single Player Game
 theme: jekyll-theme-cayman
+
+plugins:
+  - jemoji
