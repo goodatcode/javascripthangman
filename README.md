@@ -51,6 +51,6 @@
 * Restructering the order that functions and function calls appear to make the code more readable
 
 ### Biggest takeaway?
-> It was stressful, but we’d do it again in a heartbeat!
+> It was stressful working on a tight deadline, but we’d do it again in a heartbeat!
 :smile:
 
