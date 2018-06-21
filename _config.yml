@@ -1,5 +1,5 @@
 title: Javascript Hangman
-description: Hangman game co created by Alex Mannix, Brittany Miltenberger, Darius Minus & Bonnie Wolfe
+description: Hangman single player game co-created by Alex Mannix, Brittany Miltenberger, Darius Minus & Bonnie Wolfe. Written in vanilla Javascript.
 theme: jekyll-theme-cayman
 
 plugins:
