@@ -36,7 +36,7 @@
 * Figure out how to use your communication tools (Zoom, Repl.it, Codepad, Slack, good old fashioned telephone, etc.) 
 * Commenting code saves time later
 * Progress should be reviewed at regular intervals
-* Working on different schedules allows for continuious development
+* Working on different schedules allows for continuous development
 * Breaks aren’t a bad thing… fresh eyes help everyone!
 * The first way will not necessarily be the final way
 * Refactoring team coded programs is hard
@@ -48,7 +48,7 @@
 * Adding another game - e.g. Wheel of Fortune
 * Add ability to have phrases
 * Refactoring the code to use ES6
-* Restructering the order that functions and function calls appear to make the code more readable
+* Restructuring the order that functions and function calls appear to make the code more readable
 
 ### Biggest takeaway?
 > It was stressful working on a tight deadline, but we’d do it again in a heartbeat!
