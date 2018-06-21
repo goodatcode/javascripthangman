@@ -23,11 +23,11 @@ function hangman(){
   let totalGuesses = [];
   let gameOver = false; 
   let score = 100;
-  let warGamesText = "\n\n\n Do you want to play a game?\n\n    Type yes or no. \n\n\n\n(click cancel button to view code)"; 
-  let badInput = "\n\n\n I don't understand your input. Click 'OK' and start again.\n\n\n ";
+  let warGamesText = "\n\n\n Do you want to play a game?\n\n           Type yes or no. \n\n\n\n"; 
+  let badInput = "\n\n\n I don't understand your input. \n\n\n\n     Click 'OK' and try again.\n\n\n ";
   let aiGreeting = "Awesome! My name is H.A.L. I have drawn the gallows.";
   let aiRandomWord = "I have picked a random word.";
-  let noScreen = "\n\n\n ok, maybe some other time\n\n\n "; 
+  let noScreen = "\n\n\n ok, maybe some other time\n\n\n"; 
   let revealDisplay = '';
 
 
@@ -49,7 +49,7 @@ function hangman(){
       
     let wordBank = [];
   
-    let userResponse = prompt("\n\n\n Choose a difficulty level: 'easy' or 'hard' or 'impossible' \n\n\n ").toLowerCase();
+    let userResponse = prompt("\n\n\n\n\n Choose a difficulty level: 'easy' or 'hard' or 'impossible' \n\n\n\n\n ").toLowerCase();
 
     if (userResponse === 'easy'){
     wordBank = wordBankEasy
@@ -86,7 +86,7 @@ function hangman(){
 
     while (userGuess === "" || userGuess.match(/[^a-zA-Z]/g)) {
       if (userGuess.match(/[^a-zA-Z]/g)) {
-        alert("Only letters will be accepted.")
+        alert("\n\n\nOnly letters will be accepted.\n\n\n\n      Click 'OK' to continue.\n\n\n")
         userGuess = playGame();
       } else {
           alert(badInput);
@@ -153,7 +153,7 @@ wannaPlay();
     
     // User has already guessed input 
     while (totalGuesses.includes(userGuess)) {
-      alert ("\n\n\n You already guessed that you FOOL!\nHere are the letters you've guessed so far: " + totalGuesses.sort()+"\n\n\n ");
+      alert ("\n\n\n     You already guessed that you FOOL!\nHere are the letters you've guessed so far: " + totalGuesses.sort()+"\n\n\n\n                    Click 'OK' to continue\n\n\n ");
       userGuess = playGame();
     }
   
@@ -176,4 +176,4 @@ wannaPlay();
 hangman();
 }
 
-//hangman();
+
