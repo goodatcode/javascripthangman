@@ -79,7 +79,7 @@ function hangman(){
     
 
     if (totalGuesses.length === 0) {
-      userGuess = prompt(aiGreeting +"\n" + gallow + "\n" + aiRandomWord +"\n" + revealDisplay + "\n" + wrongGuesses + "\n" + "Guess a letter or go to sudden death by guessing the whole word: ");
+      userGuess = prompt(aiGreeting +"\n" + gallow + "\n" + aiRandomWord +"\n" + revealDisplay + "\n" + wrongGuesses + "\n" + "Guess a letter or go to sudden\ndeath by guessing the whole word: ");
     } else {
       userGuess = prompt(gallow + "\n" + "Reveal: " + revealDisplay + "\n" + "Guessed Letters: " + wrongGuesses + "\n" + "Guess a letter or go to sudden death by guessing the whole word: ");
     }
