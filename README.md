@@ -6,7 +6,7 @@
 
 
 # Team Goal: Create Hangman Game
-![Alt text](img/team-goal03.png)
+![Alt text](img/team-goal04.png)
 
 # Use Cases: #
 * User says NO to playing game
