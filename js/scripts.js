@@ -97,7 +97,7 @@ const hangman = () => {
     return userGuess;
   }
 
-  function afterCorrectGuess(arr, val) {
+  const afterCorrectGuess = (arr, val) => {
     const indexes = [];
     arr.forEach(function (el, index) {
       if (el === val) {
