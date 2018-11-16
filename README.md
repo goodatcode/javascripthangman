@@ -1,9 +1,56 @@
-# JavaScript Hangman
-Hangman single player game co-created by Alex Mannix, Brittany Miltenberger, Darius Minus &amp; Bonnie Wolfe. Written in vanilla Javascript.
+# Contents
+* [Team Goal: Create Hangman Game](#team-goal-create-hangman-game)
+* [Use Cases](#use-cases)
+* [Lessons Learned](#lessons-learned)
+* [Future Iterations](#future-iterations)
 
-The Hangman game play is driven by [alert](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert) & [prompt](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) Web APIs.
-The code can be viewed in any IDE, but will need an IDE that supports those in order to play it.
 
-Play the hangman game, learn about the development process and team that created it:  
-https://goodatcode.github.io/javascripthangman/
+# Team Goal: Create Hangman Game
+![Alt text](img/team-goal06.png)
+
+# Use Cases: #
+* User says NO to playing game
+* User can choose Easy, Hard, or Impossible level
+* Input is correct letter
+* Input is incorrect letter
+* Input is empty
+* Input is not a letter (number or special character!)
+* Input has been previously guessed
+* Input is a word (possible sudden death!)
+* Game is over. What happens next?
+
+# Lessons Learned
+### *planning is the biggest part of team coding*
+* Design program flow
+* Do UI mockups
+* Choose style guide
+* Coordinate teammates’ schedule and availability
+* Assess individuals’ skills and interests
+* Assign roles and responsibilities 
+* Identify technical unknowns
+* Pick tools for communicating
+* Set a base goal (minimum deliverability)
+* Set a reach goal (ideal design)
+
+### *good technical communication is good team work*
+* Figure out how to use your communication tools (Zoom, Repl.it, Codepad, Slack, good old fashioned telephone, etc.) 
+* Commenting code saves time later
+* Progress should be reviewed at regular intervals
+* Working on different schedules allows for continuous development
+* Breaks aren’t a bad thing… fresh eyes help everyone!
+* The first way will not necessarily be the final way
+* Refactoring team coded programs is hard
+
+# Future Iterations
+* Multiple players - store names and scores in individual objects
+* Different computer personalities - Mean or nice computer
+* Hint option - user pays via score decrementation
+* Adding another game - e.g. Wheel of Fortune
+* Add ability to have phrases
+* Refactoring the code to use ES6
+* Restructuring the order that functions and function calls appear to make the code more readable
+
+### Biggest takeaway?
+> It was stressful working on a tight deadline, but we’d do it again in a heartbeat!
+:smile:
 
