@@ -12,7 +12,7 @@ const wordBankEasy = ["apple", "artist", "arrow", "afro", "apollo", "answer", "a
 
 const wordBankDemo = ["array"];
 
-function hangman() {
+const hangman = () => {
   let hangmanPics = [" +---+\n  |     |\n  |\n  |\n  |\n  |\n=========", "  +---+\n  |       | \n  |      0\n  |\n  |\n  |\n ========= ", "  +---+\n  |      |\n  |     0\n  |     +\n  |\n  |\n=========", "  +---+\n  |      |\n  |     0\n  |    -+\n  | \n  |\n=========", "  +---+\n  |      |\n  |     0\n  |    -+-\n  |      |\n  |\n=========", "  +---+\n  |      |\n  |     0\n  |    -+-\n  |      |\n  |     /\n=========", "  +---+\n  |       |\n  |      0\n  |     -+-\n  |       |\n  |      / \\  \n========="];
 
   // Global Variables
