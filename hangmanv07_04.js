@@ -34,7 +34,7 @@ function hangman() {
   let noScreen = "\n\n\n ok, maybe some other time\n\n\n";
   let revealDisplay = '';
 
-  function wannaPlay() {
+  const wannaPlay = () => {
     let userResponse = prompt(warGamesText).toLowerCase();
 
     if (userResponse === "no") {
