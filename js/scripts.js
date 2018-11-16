@@ -47,7 +47,7 @@ const hangman = () => {
     return wannaPlay();
   }
 
-  function diffChoice() {
+  const diffChoice = () => {
     let wordBank = [];
     let userResponse = prompt("\n\n\n\n\n Choose a difficulty level: 'easy' or 'hard' or 'impossible' \n\n\n\n\n ").toLowerCase();
 
