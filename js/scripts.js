@@ -76,7 +76,7 @@ const hangman = () => {
     revealDisplay = reveal.join(" ");
   }
 
-  function playGame() {
+  const playGame = () => {
     if (totalGuesses.length === 0) {
       userGuess = prompt(aiGreeting + "\n" + gallow + "\n" + aiRandomWord + "\n" + revealDisplay + "\n" + wrongGuesses + "\n" + "Guess a letter or go to sudden\ndeath by guessing the whole word: ");
     } else {
