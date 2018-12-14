@@ -116,8 +116,7 @@ const hangman = () => {
       gameOverStatus("win");
     }
   }
-
-  const afterWrongGuess () => {
+  const afterWrongGuess = () => {
     wrongGuesses.push(userGuess);
     gallow = hangmanPics[wrongGuesses.length];
     losingPoints++;
