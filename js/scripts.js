@@ -117,7 +117,7 @@ const hangman = () => {
     }
   }
 
-  const afterWrongGuess () => {
+  const afterWrongGuess = () => {
     wrongGuesses.push(userGuess);
     gallow = hangmanPics[wrongGuesses.length];
     losingPoints++;
